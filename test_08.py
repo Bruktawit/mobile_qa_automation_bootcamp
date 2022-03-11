@@ -20,7 +20,7 @@ def scroll_method(start_x, start_y, end_x, end_y, duration):
     driver.swipe(start_x, start_y, end_x, end_y, duration)
 
 
-def test_07_wait():
+def test_08_scroll():
     continue_element = driver.find_element(By.ID, 'com.android.permissioncontroller:id/continue_button')
     continue_element.click()
 
